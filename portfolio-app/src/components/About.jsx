@@ -60,13 +60,22 @@ export default function About() {
           <div>
             <div className="about-video-wrap">
               <iframe
-                src="https://youtu.be/YP2IyAgLIDs"
+                src="https://www.youtube.com/embed/YP2IyAgLIDs"
                 title="Spell Bound game trailer"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
             </div>
             <p className="about-video-label">
-              ▶ Spell Bound — The STI Adventure (Game Trailer)
+              ▶ Spell Bound — The STI Adventure (Game Trailer) &nbsp;·&nbsp;
+              <a
+                href="https://youtu.be/YP2IyAgLIDs"
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: 'var(--accent2)', textDecoration: 'underline' }}
+              >
+                Watch on YouTube ↗
+              </a>
             </p>
           </div>
         </div>
