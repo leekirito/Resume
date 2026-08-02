@@ -1,9 +1,9 @@
 const SOCIALS = [
-  { label: 'GitHub',    href: 'https://github.com/leekirito',                              emoji: '🐙' },
-  { label: 'LinkedIn',  href: 'https://www.linkedin.com/in/henry-lee-17288b262/',          emoji: '💼' },
-  { label: 'Instagram', href: 'https://www.instagram.com/kiritolee65/',                    emoji: '📸' },
-  { label: 'Facebook',  href: 'https://www.facebook.com/you.live.3152130',                 emoji: '💬' },
-  { label: 'TikTok',   href: 'https://www.tiktok.com/@liecodex2',                          emoji: '🎵' },
+  { label: 'GitHub', href: 'https://github.com/leekirito', emoji: '🐙' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/henry-lee-17288b262/', emoji: '💼' },
+  { label: 'Instagram', href: 'https://www.instagram.com/kiritolee65/', emoji: '📸' },
+  { label: 'Facebook', href: 'https://www.facebook.com/you.live.3152130', emoji: '💬' },
+  { label: 'TikTok', href: 'https://www.tiktok.com/@liecodex2', emoji: '🎵' },
 ]
 
 export default function About() {
@@ -60,7 +60,7 @@ export default function About() {
           <div>
             <div className="about-video-wrap">
               <iframe
-                src="https://www.youtube.com/embed/IYyZD9lWz0k?si=6rPxzX6dKIjuUglU"
+                src="https://youtu.be/YP2IyAgLIDs"
                 title="Spell Bound game trailer"
                 allowFullScreen
               />
